@@ -18,7 +18,7 @@ Ideally, you'll use these standards:
 Webpack (webpack-dev-server, babel-preset-es2015), Mocha (chai, enzyme), and NPM scripts have been set up for you. All you need to do is follow the steps below to get set up.
 
 1. Fork this repository
-2. Clone your forked repository &
+2. Clone your forked repository
 3. Install dependencies (`npm install`)
 4. Run `npm start` - your app will be live at `http://localhost:6789`
 
