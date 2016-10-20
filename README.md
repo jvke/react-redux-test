@@ -8,7 +8,7 @@ Use your http library of choice (`fetch`, `axios`, etc.) to interface with the [
 
 ##### Getting technical
 Ideally, you'll use these standards:
-- `Redux` actions to store your data
+- `Redux` actions to request and store your data
 - `React` class components for stateful components with logic
 - `React` stateless functional components for presenting UI
 - `CSS modules` to style your app (just some simple styles will do!)
