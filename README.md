@@ -24,7 +24,7 @@ Webpack (webpack-dev-server, babel-preset-es2015), Mocha (chai, enzyme), and NPM
 
 ## Submission
 
-To submit your code for review, submit a pull request to this repository with your completed task. If you have installed any new dependencies, document them in the `CHANGELOG.md`.
+To submit your code for review, submit a pull request to this repository with your completed task.
 
 ## NPM Tasks
 

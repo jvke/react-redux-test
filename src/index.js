@@ -1,5 +1,9 @@
-function foo() {
-  return 'bar';
-}
+import React from 'react';
 
-export default foo;
+class App extends React.Component {
+  render() {
+    return (
+      <p>Hello, world</p>
+    );
+  }
+}
