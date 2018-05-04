@@ -16,7 +16,3 @@ Ideally, you'll use these standards:
 ## Setup
 
 Use `create-react-app` to bootstrap your application. 
-
-## Submission
-
-To submit your code for review, submit a pull request to this repository with your completed task.
