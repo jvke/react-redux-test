@@ -37,7 +37,7 @@ exports[`Nav Nav renders with no props specified 1`] = `
     className="nav-right"
   >
     <a>
-      D3 demo
+      D3 demo (coming soon)
     </a>
   </div>
 </div>

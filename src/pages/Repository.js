@@ -84,7 +84,7 @@ const StyledRepository = styled(Repository)`
     .title {
       color: ${props => darken(0.1, props.theme.textColor)}
     }
-    .results {
+    ${DataTable} {
     }
     a {
       color: ${props => props.theme.textColor};

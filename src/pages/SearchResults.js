@@ -50,7 +50,7 @@ class SearchResults extends React.Component {
       searchResultContent = (
         <React.Fragment>
           <h4 className="title">Showing {search.results.items.length} of {search.results.total_count} results for '{qs.parse(searchQuery, { ignoreQueryPrefix: true }).query}'</h4>
-          <DataTable className="results">
+          <DataTable>
             <thead>
               <tr>
                 {['User ID', 'GitHub profile link', 'Actions'].map((col, i) => <th key={i}>{col}</th>)}
@@ -84,7 +84,7 @@ const StyledSearchResults = styled(SearchResults)`
     .title {
       color: ${props => darken(0.1, props.theme.textColor)}
     }
-    .results {
+    ${DataTable} {
     }
     a {
       color: ${props => props.theme.textColor};

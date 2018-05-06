@@ -14,7 +14,7 @@ const repositoryRequest = function* _repositoryRequest({ payload }) {
         params: {}
       });
   } else {
-    yield put(repositoryFailure(new Error("Invalid repository term, please try again")));
+    yield put(repositoryFailure(new Error('Invalid repository term, please try again')));
   }
 }
 

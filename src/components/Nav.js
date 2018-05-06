@@ -7,7 +7,7 @@ const Nav = (props) => (
   <div className={props.className}>
     <Link className='logo' to='/'>GitSearch</Link>
     <div className="nav-right">
-      <a>D3 demo</a>
+      <a>D3 demo (coming soon)</a>
     </div>
   </div>
 );
