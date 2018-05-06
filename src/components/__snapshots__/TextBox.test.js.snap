@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextBox Textbox renders with no props specified 1`] = `
+.c0:focus {
+  outline: none;
+}
+
+<input
+  className="c0"
+  type="text"
+/>
+`;
+
+exports[`TextBox Textbox renders with props specified 1`] = `
+.c0:focus {
+  outline: none;
+}
+
+<input
+  a={1}
+  b={2}
+  c={3}
+  className="c0"
+  type="text"
+/>
+`;

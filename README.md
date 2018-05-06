@@ -1,4 +1,17 @@
-# React/Redux Task
+# Github dashboards
+
+A simple github dashboard featuring:
+1. Search users
+2. Display repositories of the user
+
+## Building this project
+
+### NPM
+
+### Docker
+
+
+## React/Redux Task
 
 A simple task using `redux`, `react` and `redux-thunk`.
 
