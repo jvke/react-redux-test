@@ -1,4 +1,42 @@
-# React/Redux Task
+# Github dashboards
+
+A simple github dashboard featuring:
+1. Search users
+2. Display repositories of the user
+
+What this project includes
+1. React, Redux
+2. Redux saga to manage side effects (API calls, etc...)
+3. Styled components + Polished
+4. Jest tests
+5. Axios
+6. redux-actions which adhere's to Redux FSA (Flux standard actions)
+7. React Router with hash router (hash router supports older browsers as well)
+
+Future work
+1. Improve test coverage
+2. D3 visualization network / graph with zoom / pan
+3. Redux persist for localstorage of certain slices in the redux store.
+4. More performance tuning with reselect (memoization), perhaps reducer state normalization (normalizr) and lesser re-renders / better heuristics with shouldComponentUpdate
+5. Loading state with spinner for users / repositories
+
+## Building this project
+
+Navigate to the root of this project before running the commands below
+
+### NPM
+`npm run build --production`
+
+### Docker
+Run this command below and then navigate to port 5000
+
+`docker build . -t iamyohann/gitdashboards && docker run -d -p 5000:5000 iamyohann/gitdashboards`
+
+Web UI will be available at 
+
+[http://localhost:5000](http://localhost:5000)
+
+## React/Redux Task
 
 A simple task using `redux`, `react` and `redux-thunk`.
 

@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataTable DataTable renders with no props specified 1`] = `
+.c0 {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: solid 1px #78c0f4;
+  border-radius: 4px;
+  background: rgba(15,120,196,0.3);
+  padding: 10px;
+}
+
+.c0 th {
+  background: rgba(4,33,54,0.5);
+}
+
+.c0 td,
+.c0 th {
+  padding: 5px;
+}
+
+.c0 tr td {
+  border-top: solid 1px #78c0f4;
+}
+
+<table
+  className="c0"
+  theme={
+    Object {
+      "alert": Object {
+        "error": "#FF0000",
+      },
+      "brand": Object {
+        "dark": "rgb(1, 20, 46)",
+        "light": "rgb(8, 62, 101)",
+      },
+      "textColor": "#EEEEEE",
+    }
+  }
+>
+  <tbody>
+    <tr>
+      <td>
+        Foo
+      </td>
+      <td>
+        Bar
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`DataTable DataTable renders with props specified 1`] = `
+.c0 {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: solid 1px #78c0f4;
+  border-radius: 4px;
+  background: rgba(15,120,196,0.3);
+  padding: 10px;
+}
+
+.c0 th {
+  background: rgba(4,33,54,0.5);
+}
+
+.c0 td,
+.c0 th {
+  padding: 5px;
+}
+
+.c0 tr td {
+  border-top: solid 1px #78c0f4;
+}
+
+<table
+  a={1}
+  b={2}
+  c={3}
+  className="c0"
+  theme={
+    Object {
+      "alert": Object {
+        "error": "#FF0000",
+      },
+      "brand": Object {
+        "dark": "rgb(1, 20, 46)",
+        "light": "rgb(8, 62, 101)",
+      },
+      "textColor": "#EEEEEE",
+    }
+  }
+/>
+`;

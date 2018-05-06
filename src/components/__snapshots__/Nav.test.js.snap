@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav Nav renders with no props specified 1`] = `
+.c0 {
+  overflow: hidden;
+  padding: 15px 10px;
+}
+
+.c0 .logo {
+  color: #EEEEEE;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: 'Source Serif Pro',serif;
+}
+
+.c0 .nav-right {
+  float: right;
+}
+
+.c0 .nav-right a {
+  padding: 0px 10px;
+  color: rgba(238,238,238,0.8);
+}
+
+<div
+  className="c0"
+>
+  <a
+    className="logo"
+    href="/"
+    onClick={[Function]}
+  >
+    GitSearch
+  </a>
+  <div
+    className="nav-right"
+  >
+    <a>
+      D3 demo (coming soon)
+    </a>
+  </div>
+</div>
+`;
