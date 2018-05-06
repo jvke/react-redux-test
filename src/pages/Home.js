@@ -8,7 +8,7 @@ const Home = (props) => (
   <div className={props.className}>
     <p className="helpText">Find a user on Github...</p>
     <SearchBar />
-    <p className="footNotes">Recently searched: </p>
+    <p className="footNotes"></p>
   </div>
 );
 

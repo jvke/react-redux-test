@@ -61,7 +61,7 @@ class SearchResults extends React.Component {
                 <tr key={item.id}>
                   <td key='avatar'><img alt={`Avatar for ${item.id}}`} src={item.avatar_url} width='15px' height='15px' /> {item.login}</td>
                   <td key='git_url'><a href={item.html_url} target='_blank'>Click here</a></td>
-                  <td key='detail'><Button onClick={() => this.viewRepository(item.login)}>View</Button></td>
+                  <td key='detail'><Button onClick={() => this.viewRepository(item.login)}>View repos</Button></td>
                 </tr>
               ))}
             </tbody>

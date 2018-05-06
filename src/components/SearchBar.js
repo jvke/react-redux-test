@@ -22,7 +22,11 @@ class SearchBar extends React.Component {
   static propTypes = {
     history: PropTypes.object.isRequired,
   }
-
+  onKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      this.doSearch();
+    }
+  }
   onTextChange = ({ target: { value: term } }) => {
     const { error }  = this.state;
     this.setState({
@@ -53,8 +57,8 @@ class SearchBar extends React.Component {
 
     return (
       <div className={this.props.className}>
-        <TextBox placeholder="Enter a search term..." className="searchText" onChange={this.onTextChange} value={term || ''} />
-        <Button className="searchButton" onClick={this.doSearch}>Search</Button>
+        <TextBox placeholder='Enter a search term...' className='searchText' onKeyPress={this.onKeyPress} onChange={this.onTextChange} value={term || ''} />
+        <Button className='searchButton' onClick={this.doSearch}>Search</Button>
         {error && <ErrorAlert>{error}</ErrorAlert>}
       </div>
     );
